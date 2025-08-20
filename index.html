@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>廿九不念旧的个人站</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="自动化专业在读本科生的技术分享站，聚焦校园小项目实践。分享项目源代码等，适合同频者交流参考。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <!-- 引入 Docsify 主题样式，这里用 vue 主题示例 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <!-- 代码高亮样式，让代码块更美观 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.css">
+    <!-- 可自定义一些样式，比如调整导航栏位置等，这里简单示例 -->
+    <style>
+        /* 调整导航栏位置，让其在右上角显示更合理，可根据实际需求精细调整 */
+        .navbar {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Docsify 渲染容器，文档内容会加载到这里 -->
+    <div id="app"></div>
+
+    <script>
+        window.$docsify = {
+            // 文档名称，会显示在侧边栏等位置（可选）
+            name: '廿九不念旧',
+            // 关联的仓库地址，设置后会在页面显示仓库图标（可选）
+            repo: '',
+            // 启用封面页，对应 _coverpage.md 文件
+            coverpage: true,
+            // 启用侧边栏，对应 _sidebar.md 文件（可选，按需开启）
+            loadSidebar: true,
+            // 启用导航栏，对应 _navbar.md 文件，这是关键配置
+            loadNavbar: true,
+            // 搜索功能配置，可让文档支持全局搜索
+            search: {
+                placeholder: '搜索...',
+                noData: '未找到结果',
+                depth: 3,
+                hideOtherSidebarContent: false
+            },
+            // 代码高亮相关配置，让代码块语法高亮
+            highlight: {
+                autoHighlight: true,
+                hljs: function (hljs) {
+                    // 可在这里扩展自定义代码高亮规则，不过一般默认的常用语言就够了
+                }
+            },
+            // 字数统计配置（可选，需引入 docsify-count 插件）
+            count: {
+                countable: true,
+                fontsize: '0.9em',
+                color: 'rgb(90, 90, 90)',
+                language: 'chinese',
+                isExpected: true,
+                ignore: ['\\$', '\\(', '\\)', '\\*', '\\+', '\\-', '\\/', '\\=', '\\[', '\\]', '\\{', '\\}', '\\|', '\\\\', '\\:', '\\;', '\"', '\'', '\\<', '\\>', '\\,', '\\.', '\\?', '\\!', '\\`']
+            }
+        };
+    </script>
+
+    <!-- Docsify 核心库，必须引入 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- 代码高亮插件，让多种语言代码块高亮，按需引入对应语言组件 -->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-html.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+    <!-- 代码块复制插件，让代码块可点击复制 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    <!-- 搜索插件，实现文档全局搜索 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- 字数统计插件（可选），如需统计文档字数和阅读时长则引入 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+</body>
+
+</html>
