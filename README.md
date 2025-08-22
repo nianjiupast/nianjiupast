@@ -6,7 +6,7 @@
 ### 🧑‍💻 关于我  
 - 一枚 **自动化在读本科生** ，热爱 “折腾” 有趣的东西  
 - 关注 **AI 小工具落地、独立开发经验分享**  
-- 常出没于 GitHub: [https://github.com/nianjiucc](https://github.com/nianjiucc)  
+- 常出没于 GitHub: [https://github.com/nianjiuday](https://github.com/nianjiuday)  
 
 
 ### 📚 你可以在这里找到这些内容  
