@@ -1,6 +1,7 @@
 - [首页](README.md)
-- [成绩导出工具](dlou-cjcx/index.md)
-  - [用户协议](dlou-cjcx/agreement.md)
-  - [信息获取](dlou-cjcx/getinfo.md)
+- [成绩导出工具](dlou-cjcx/README.md)
+  - [工具主页](dlou-cjcx/README.md)
+  - [操作教程](dlou-cjcx/guide.md)
 - [常见问题](faq.md)
 - [关于](about.md)
+
