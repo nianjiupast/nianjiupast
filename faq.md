@@ -11,7 +11,8 @@
 
 本站友链信息：<br>
 名称：廿九不念旧的个人站<br>
-链接：http://nianjiu.cc
+链接：www.nianjiuday.com
 ### 申请流程
 
-将你的站点信息发送至「邮箱 [i@nianjiu.cc]」（主题为 “友链申请 - 站点名”）
+将你的站点信息发送至「邮箱 [nianjiuday@gmail.com]」（主题为 “友链申请 - 站点名”）
+
