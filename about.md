@@ -5,8 +5,9 @@
 - 小红书：[廿九不念旧的个人主页](https://www.xiaohongshu.com/user/profile/68a5c496000000001a00ef5b?xsec_token=YBnXxCEIB8Cr3ICQ6NmHrh7m30YQUAp-iC1zOmVC8i7QU%3D&xsec_source=app_share&xhsshare=CopyLink&appuid=68a5c496000000001a00ef5b&apptime=1755876188&share_id=fdc6c257c1ab4d29ab2f5b2a08377fa0&share_channel=copy_link)
 - 邮箱：nianjiuday@gmail.com **（请勿发送无主题或无内容邮件，否则会归为垃圾邮件）**
 - QQ：47370747
-- GitHub：[https://github.com/nianjiuday](https://github.com/nianjiuday)
+- GitHub：[https://github.com/JYishu](https://github.com/JYishu)
 - 地址：辽宁省大连市沙河口区黑石礁街52号
+
 
 
 
